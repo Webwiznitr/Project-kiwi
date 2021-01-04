@@ -18,7 +18,7 @@ var x = setInterval(function(){
 window.onscroll = function(){
     var nav = document.getElementById('ul');
     if (window.pageYOffset > 100){
-        nav.style.background = "#007bff"; 
+        nav.style.background = "linear-gradient(180deg, #B06AB3, #6604D6)"; 
     }
     else{
         nav.style.background = "transparent";
