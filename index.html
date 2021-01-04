@@ -13,7 +13,20 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
     <script src="assets/js/script.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/faq.css">
+    <script src="https://kit.fontawesome.com/8d2d337e02.js" crossorigin="anonymous"></script>
+ 	<script src="https://unpkg.com/scrollreveal"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/tracks.css">
+    <script src="assets/js/tracks.js"></script>
     <script src="assets/js/about.js"></script>
+
 </head>
 
 <body>
@@ -337,18 +350,173 @@
         <hr>
         <!-- Tracks -->
         <div class="tracks">
-            <h1>Tracks</h1>
+            <h1 style="text-align: center;">Tracks</h1>
+            <div class="container">
+	
+                <div class="element-card">
+                    <div class="front-facing">
+                        <h1 class="abr">T1</h1>
+                        <p class="title">Health Tech</p>
+                    
+                        <span class="tnumber">1</span>
+                    </div>
+                    <div class="back-facing">
+                        <p>The Health Tech track aims to improve the quality of life for individuals through health and assistance. This includes a wide range of projects, such as tracking sleep for better sleep schedule maintenance, using machine learning on medical imaging to diagnose illnesses more accurately, utilizing speech-to-text to make resources more accessible to deaf patients, and much more.</p>
+                        <p><a class="btn" href="#" target="_blank">More info</a></p>
+                    </div>
+                </div>
+                
+                <div class="element-card">
+                    <div class="front-facing">
+                        <h1 class="abr">T2</h1>
+                        <p class="title">Connectivity</p>
+                        <span class="tnumber">2</span>
+                    </div>
+                    <div class="back-facing">
+                        <p>The Connectivity track brings people together, connecting them regardless of their physical locations. These projects provide a platform for individuals to become part of a larger community, opening communication channels (both real-time and asynchronous) to help people connect with long-lost friends, meet new acquaintances with similar interests, challenge existing viewpoints, and more.</p>
+                        <p><a class="btn" href="#" target="_blank">More info</a></p>
+                    </div>
+                </div>
+                
+                <div class="element-card">
+                    <div class="front-facing">
+                        <h1 class="abr">T3</h1>
+                        <p class="title">Education</p>
+                        <span class="tnumber">3</span>
+                    </div>
+                    <div class="back-facing">
+                        <p>Education technology, or EdTech, is designed to empower students of all ages and encourage lifelong learning. These projects include any sort of technology that augments and enhances the learning experiences of students, whether it be studying traditional curriculum in a classroom or trying to pick up a new hobby or skill. This track also aims to increase the accessibility of information and accommodate various learning styles and strengths.</p>
+                        <p><a class="btn" href="#" target="_blank">More info</a></p>
+                    </div>
+                </div>
+                
+                <div class="element-card">
+                    <div class="front-facing">
+                        <h1 class="abr">T4</h1>
+                        <p class="title">Urban Innovation</p>
+                        <span class="tnumber">4</span>
+                    </div>
+                    <div class="back-facing">
+                        <p>Urban Innovation strives to tackle the emerging social, environmental, economic, cultural, and technological problems facing cities today. This track welcomes any idea that is meant for the betterment of our community, whether it is on a scale as small as a single street or something as large as helping curb climate change.</p>
+                        <p><a class="btn" href="#" target="_blank">More info</a></p>
+                    </div>
+                </div>
+                
+            </div>
             </h1>
         </div>
         <hr>
         <!-- Schedule -->
-        <div class="schedule">
-            <h1>Schedule</h1>
+        <div class="schedule">\
+            <h1 style="text-align: center;">Schedule</h1>
+            <section id="getset" style="padding-top: 120px;">
+                <div class="container justify-content-center" style="align-content: center;">
+                    <div class="row justify-content-center">
+    
+                        <div class="col-sm-6 col-md-6 col-12" style="align-self: center;">
+                            <img id="timelinesvg" class="img-fluid" style="width:40%; padding: 50px;" src="assets/img/Schedule.svg" />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <hr>
+
         <!-- FAQ -->
         <div class="faq">
-            <h1>FAQ</h1>
+            <h1 style="text-align: center;">FAQ</h1>
+        <div class="container">
+            <div class="accordion">
+                <div class="accordion-question">
+                    <h3 onclick="accordActive(1); ">Question 1: What is Lorem Ipsum?</h3>
+                    <i onclick="accordActive(1); " class="fas fa-plus"></i>
+                </div>
+                <div class="accContent">
+                  <div class="contnet-inner">
+                    <p>
+                      Loren Ipsum is a simple dummy text of the printing and typesetting
+                      Industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a gallery of
+                      type and scrambled it to make a type specimen book. It has
+                      survived not only five centuries, but also the leap into
+                      electronic typesetting, remaining essentially unchanged. It was
+                      popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with Desktop
+                      publishing Software like Aldus Pagemaker including versions of
+                      Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion">
+                <div class="accordion-question">
+                    <h3 onclick="accordActive(2);">Question 1: What is Lorem Ipsum?</h3>
+                    <i onclick="accordActive(2);" class="fas fa-plus"></i>
+                </div>
+                <div class="accContent">
+                  <div class="contnet-inner">
+                    <p>
+                      Loren Ipsum is a simple dummy text of the printing and typesetting
+                      Industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a gallery of
+                      type and scrambled it to make a type specimen book. It has
+                      survived not only five centuries, but also the leap into
+                      electronic typesetting, remaining essentially unchanged. It was
+                      popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with Desktop
+                      publishing Software like Aldus Pagemaker including versions of
+                      Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion">
+                <div class="accordion-question">
+                    <h3 onclick="accordActive(3);">Question 1: What is Lorem Ipsum?</h3>
+                    <i onclick="accordActive(3);" class="fas fa-plus"></i>
+                </div>
+                <div class="accContent">
+                  <div class="contnet-inner">
+                    <p>
+                      Loren Ipsum is a simple dummy text of the printing and typesetting
+                      Industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a gallery of
+                      type and scrambled it to make a type specimen book. It has
+                      survived not only five centuries, but also the leap into
+                      electronic typesetting, remaining essentially unchanged. It was
+                      popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with Desktop
+                      publishing Software like Aldus Pagemaker including versions of
+                      Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion">
+                <div class="accordion-question">
+                    <h3 onclick="accordActive(4)">Question 1: What is Lorem Ipsum?</h3>
+                    <i onclick="accordActive(4)" class="fas fa-plus"></i>
+                </div>
+                <div class="accContent">
+                  <div class="contnet-inner">
+                    <p>
+                      Loren Ipsum is a simple dummy text of the printing and typesetting
+                      Industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a gallery of
+                      type and scrambled it to make a type specimen book. It has
+                      survived not only five centuries, but also the leap into
+                      electronic typesetting, remaining essentially unchanged. It was
+                      popularised in the 1960s with the release of Letraset sheets
+                      containing Lorem Ipsum passages, and more recently with Desktop
+                      publishing Software like Aldus Pagemaker including versions of
+                      Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <script src="assets/js/faq.js">
+
+        </script>
         </div>
         <hr>
         <!-- Chat Bot -->
