@@ -14,3 +14,13 @@ var x = setInterval(function(){
     document.getElementById("count-seconds").innerHTML = seconds;
 },1000);
 
+
+window.onscroll = function(){
+    var nav = document.getElementById('ul');
+    if (window.pageYOffset > 100){
+        nav.style.background = "linear-gradient(180deg, #B06AB3, #6604D6)"; 
+    }
+    else{
+        nav.style.background = "transparent";
+    }
+}
