@@ -2,6 +2,7 @@
     height: 100vh;
   }
   .faq-container {
+    background-color: aqua;
     max-width: 1300px;
     margin: 0 auto;
     border-radius: 15px;
