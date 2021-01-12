@@ -61,9 +61,9 @@
 	background-color: #000;
 	border: 2px solid #000;
 
-	webkit-transition:all .5s ease;
- 	moz-transition:all .5s ease;
- 	os-transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+ 	-moz-transition:all .5s ease;
+ 	-o-transition:all .5s ease;
  	transition:all .5s ease;
 }
 
