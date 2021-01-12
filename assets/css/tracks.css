@@ -46,14 +46,17 @@ body {
 	box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
 	margin: 20px;
 	cursor: pointer;
+	/*done this*/
+    border-radius: 25px;
 }
 	.element-card:hover {
-		transform: scale(1.3) rotate(0deg);
+		transform: scale(1.3);
 	}
 
 	.open {
-		width: 200px;
-		height: 260px;
+		/*width was 200px,height was 260px changed it*/
+		width: 220px;
+		height: 300px;
 		transform: rotatey(-180deg) translatex(0px) translatey(0px);
 	}
 	
@@ -66,7 +69,7 @@ body {
 		right: 0;
 		background-color: #ecf0f1;
 		border: 2px white solid;
-        border-radius: 5px;
+        border-radius: 15px;/*this was 5px*/
     }
 	.abr {
 			width: 100%;
@@ -111,7 +114,7 @@ body {
 		right: 0;
 		background-color: #ecf0f1;
 		border: 2px white solid;
-		border-radius: 5px;
+		border-radius: 15px;/*this was 5px*/
 		padding: 20px;
 		text-align: center;
         overflow: hidden;
@@ -130,7 +133,9 @@ body {
 			text-decoration: none;
             border-radius: 3px;
         }
-		:hover, :focus {
+
+
+		 .element-card:hover {
                 color: #000000;
 			}
-	
+
