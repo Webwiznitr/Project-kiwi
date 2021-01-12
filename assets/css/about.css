@@ -103,17 +103,18 @@
 
 .abt .box
 {
-	  border: 1px solid #000;
+	border: 2px solid #000;
     margin: 40px 200px;
     padding: 30px 20px;
-		border-radius: 8px;
-		justify-content: center;
+	border-radius: 8px;
+	justify-content: center;
+		
 }
 
 
 .abt p{
     font-weight: 400;
-    font-size: 20px;
-		color: black;
-		transition: 0.5s;
+	font-size: 20px;
+	color: black;
+	transition: 0.5s;
 }
